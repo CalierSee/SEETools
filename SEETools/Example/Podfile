@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'SEETools_Example' do
+  pod 'SEETools', :path => '../'
+
+  target 'SEETools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+  
+  pod 'IQKeyboardManager'
+  
+end

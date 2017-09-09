@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - IQKeyboardManager (4.0.12)
+  - Masonry (1.0.2)
+  - SEETools (0.1.0):
+    - Masonry
+    - SEETools/Kit (= 0.1.0)
+    - SEETools/Tools (= 0.1.0)
+  - SEETools/Kit (0.1.0):
+    - Masonry
+  - SEETools/Tools (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - IQKeyboardManager
+  - SEETools (from `../`)
+
+EXTERNAL SOURCES:
+  SEETools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  IQKeyboardManager: feb4562ba22266c179801a76228017f7a3c0d111
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SEETools: a0933c163db2521c7823f925d9cabc1f134290c5
+
+PODFILE CHECKSUM: 105505d1fd71b63051790c7b2af2bdb7d4d7d5e1
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,39 @@
+{
+  "name": "SEETools",
+  "version": "0.1.0",
+  "summary": "Tools",
+  "description": "* Kit 视图框架\n\n    **View  视图\n        SEETagView\n\n\n    **ViewController  控制器\n        SEETagViewController\n\n* Tools\n    **Chain\n\n    **SEETools",
+  "homepage": "https://github.com/436005247@qq.com/SEETools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "436005247@qq.com": "436005247@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/436005247@qq.com/SEETools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SEETools/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Kit"
+    },
+    {
+      "name": "Tools"
+    }
+  ]
+}
